@@ -26,7 +26,7 @@ const FileDropZone:FunctionComponent<{setSelectedFile: Dispatch<any> }> = ({setS
         onDropRejected,
         onDropAccepted,
         multiple: false,
-        accept: "image/jpeg,image/png",
+        accept: "image/jpeg,image/png,application/zip",
     });
     return (
         <div className="dropzone-outer">
